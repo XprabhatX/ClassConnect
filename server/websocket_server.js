@@ -1,7 +1,7 @@
 const WebSocket = require('ws');                                           // Importing the WebSocket library
 
 const PORT = process.env.PORT || 8080;
-const wss = new WebSocket.Server(PORT, () => {                   // Creating a WebSocket server on port 8080
+const wss = new WebSocket.Server({ port: PORT }, () => {                   // Creating a WebSocket server on port 8080
     console.log('WebSocket server started on ws://localhost:8080');
 });
 

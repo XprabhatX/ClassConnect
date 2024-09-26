@@ -34,7 +34,7 @@ document.getElementById('teacherForm').addEventListener('submit', function(event
     };
 
     if (!socket || socket.readyState === WebSocket.CLOSED) {   //to avoid creating multiple connection if user clicks on submit multiple times
-        socket = new WebSocket('ws://localhost:8080');
+        socket = new WebSocket('wss://student-gpfke5b2hha4c0g3.centralindia-01.azurewebsites.net');
 
         socket.onopen = function(event) {
             alert('WebSocket connection Established');

@@ -2,19 +2,29 @@ from flask import Flask,request, jsonify
 import pymysql
 from flask_cors import CORS
 from mysql.connector import pooling
+import os
 
 #-----------------------------------------------------------------Flask App definitions----------------------------------------------
 app=Flask(__name__)
 CORS(app)
 
 #similar to just a single conection but it will allow other routes to use the connection simultaneausly
+db_user = os.environ.get('MYSQL_USER')
+db_password = os.environ.get('MYSQL_PASSWORD')
+db_host = os.environ.get('MYSQL_HOST')
+db_port = int(os.environ.get('MYSQL_PORT'))
+db_name = os.environ.get('MYSQL_DATABASE')
+
 pool = pooling.MySQLConnectionPool(
     pool_name="mypool",
     pool_size=5,
-    host='localhost',
-    user='root',
-    password='',
-    db='classconnect'
+    user=db_user, 
+    password=db_password,
+    host=db_host, 
+    port=db_port,
+    database=db_name,
+    ssl_ca="/certificate/DigiCertGlobalRootG2.crt.pem", 
+    ssl_disabled=False
 )
 
 #------------------------------------------------------------Routes for the server---------------------------------------------

@@ -28,12 +28,12 @@ jobs:
           source venv/bin/activate
       
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r server/requirements.txt  # Update path to requirements.txt
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
       - name: Zip artifact for deployment
-        run: zip release.zip ./* -r
+        run: zip -r release.zip server/*  # Update this to include files from the server folder only
 
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v4
@@ -59,7 +59,7 @@ jobs:
           name: python-app
 
       - name: Unzip artifact for deployment
-        run: unzip release.zip
+        run: unzip release.zip -d .  # Unzip to the current directory
 
       
       - name: Login to Azure
@@ -75,4 +75,5 @@ jobs:
         with:
           app-name: 'flask-servers'
           slot-name: 'Production'
-          
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}  # Ensure this secret is set
+          startup-command: 'gunicorn --bind=0.0.0.0 --timeout 600 server.app:app'  # Set your startup command

@@ -132,6 +132,7 @@ def get_students_by_lecture():
     finally:
         cursor.close()
         conn.close()
+        
     return ans
 
 

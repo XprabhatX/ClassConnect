@@ -75,5 +75,3 @@ jobs:
         with:
           app-name: 'flask-servers'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}  # Ensure this secret is set
-          startup-command: 'gunicorn --bind=0.0.0.0 --timeout 600 server.app:app'  # Set your startup command

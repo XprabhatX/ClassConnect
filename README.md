@@ -28,7 +28,7 @@
 
 ## System Architecture
 
-![Project Architecture](image-link)
+![Project Architecture](/images/architecture.jpg)
 
 The project is deployed on **Azure** under the resource group `ClassConnect`. The following are the key components of the architecture:
 
@@ -38,4 +38,4 @@ The project is deployed on **Azure** under the resource group `ClassConnect`. Th
 
 Following is the overview of **ClassConnect** resource group:
 
-![Architecture Image](image-link)
+![Architecture Image](/images/azure_view.png)

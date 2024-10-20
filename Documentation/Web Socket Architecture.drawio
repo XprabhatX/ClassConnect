@@ -1,0 +1,110 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="2rOLcvQWuCN5zAeRWC4Q">
+    <mxGraphModel dx="1900" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="160" width="180" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="155" width="310" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="160" width="170" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-4" value="&lt;b&gt;Student App&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="170" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-5" value="&lt;b&gt;WebSocket&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Server&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="302.5" y="170" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-6" value="&lt;b&gt;Teacher&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;App&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="667.5" y="170" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ngXDKil1xlgyLKpjeQJv-7" target="ngXDKil1xlgyLKpjeQJv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-7" value="Student Login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ngXDKil1xlgyLKpjeQJv-8" target="ngXDKil1xlgyLKpjeQJv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-8" value="Stores the student&lt;div&gt;Connection corresponding to teacher initials&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-9" value="Sending succesful data storage message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ngXDKil1xlgyLKpjeQJv-11" target="ngXDKil1xlgyLKpjeQJv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-11" value="Teacher Login and&lt;div&gt;Starting the session&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="210" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ngXDKil1xlgyLKpjeQJv-12" target="ngXDKil1xlgyLKpjeQJv-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-12" value="Listining for any mesage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ngXDKil1xlgyLKpjeQJv-13" target="ngXDKil1xlgyLKpjeQJv-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-13" value="Chesks type&amp;nbsp;&lt;div&gt;of&lt;/div&gt;&lt;div&gt;user&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="285" width="115" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ngXDKil1xlgyLKpjeQJv-14" target="ngXDKil1xlgyLKpjeQJv-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-14" value="Sending the &#39;Attendance Started&#39;&amp;nbsp;&lt;div&gt;mesage to students&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ngXDKil1xlgyLKpjeQJv-15" target="ngXDKil1xlgyLKpjeQJv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-15" value="Waiting for Attendance session" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-16" value="Opening Authentication Interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-19" value="teacher_initials" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-20" value="user type" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="240" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-22" value="teacher_initials" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-23" value="user type" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="555" y="240" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.548;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ngXDKil1xlgyLKpjeQJv-13" target="ngXDKil1xlgyLKpjeQJv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-30" value="Teacher" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-31" value="Student" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.005;entryY=0.725;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ngXDKil1xlgyLKpjeQJv-9" target="ngXDKil1xlgyLKpjeQJv-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-35" value="teacher&lt;div&gt;message&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="440" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ngXDKil1xlgyLKpjeQJv-36" value="confirmation&lt;div&gt;message&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="530" width="90" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
